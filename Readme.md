@@ -38,14 +38,10 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 ---
 
 ### 📝 *Implementation Highlights*
-✅ Extracted *real map data* for Connaught Place, Delhi using OSMnx  
+✅ Extracted *real map data* for Seoul using OSMnx  
 ✅ Created a custom RoadGraph class to store nodes (lat, lon) and weighted edges  
 ✅ Implemented BFS, Dijkstra, and A* from scratch  
 ✅ Used *Haversine formula* for heuristic distance in A*  
-✅ Visualised computed paths using Folium with:
-- *Blue path line*
-- *Green marker* for source
-- *Red marker* for destination
 
 ---
 
@@ -80,12 +76,6 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 ---
 
-### 🌐 *Screenshots*
-
-![Map Screenshot](./screenshots/pathfinding_result.png)
-
-(Add your generated screenshot here)
-
 ---
 
 ### 📈 *Complexities*
@@ -98,17 +88,8 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 ---
 
-### 🎤 *Interview Explanation*
-> “I built a pathfinding visualiser using real map data from OpenStreetMap. I implemented BFS, Dijkstra, and A* to demonstrate practical applications of graph algorithms. The visualisation with Folium clearly shows shortest paths, and the project highlights my understanding of data structures, priority queues, heuristics, and practical integration for real-world use cases like delivery routing or navigation systems.”
 
----
 
-### ✅ *Future Enhancements*
-- Support multiple destinations (TSP heuristic)  
-- Integrate traffic data as dynamic edge weights  
-- Deploy as a web app using *FastAPI + React + Leaflet.js*
-
----
 
 ### 🙌 *Credits*
 - [OpenStreetMap](https://www.openstreetmap.org/) for map data  
@@ -116,7 +97,3 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 ---
 
-### 📌 *Author*
-*Your Name* – [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
-
----
