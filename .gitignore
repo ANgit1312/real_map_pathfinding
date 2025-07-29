@@ -1,0 +1,16 @@
+#ignore virtual environments
+venv/
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+#jupyter notebooks
+.ipynb_checkpoints/
+
+#os/editor files
+.DS_Store
+.vscode/
+
+#logs
+*.log
