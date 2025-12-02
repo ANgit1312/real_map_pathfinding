@@ -1,16 +1,16 @@
-# Real Map Pathfinding Visualiser
+Real Map Pathfinding Visualiser
 
-### 🚀 *Project Overview*
+🚀 Project Overview
 This project visualises *shortest paths on real city maps* using:
-- *BFS* for unweighted shortest path
-- *Dijkstra* for weighted shortest path
+- BFS for unweighted shortest path
+- Dijkstra for weighted shortest path
 - *A\** for heuristic-based efficient pathfinding
 
 It uses *OpenStreetMap data* to create realistic road networks and visualises computed paths interactively on maps.
 
 ---
 
-### 🎯 *Objective*
+🎯 Objective
 ✅ Fetch real city road data  
 ✅ Convert to a graph (nodes as intersections, edges as roads with distances)  
 ✅ Implement pathfinding algorithms to compute routes  
@@ -18,16 +18,16 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 ---
 
-### 🛠 *Technologies Used*
-- *Python*
-- *OSMnx:* Fetching and parsing OpenStreetMap data  
-- *NetworkX:* Graph operations  
-- *Folium:* Map visualisation  
-- *Heapq:* For priority queues in Dijkstra and A\*
+🛠 Technologies Used
+- Python
+- OSMnx: Fetching and parsing OpenStreetMap data  
+- NetworkX: Graph operations  
+- Folium: Map visualisation  
+- Heapq: For priority queues in Dijkstra and A\*
 
 ---
 
-### 📚 *Algorithms Implemented*
+📚 *Algorithms Implemented*
 
 | Algorithm | Description | Use Case |
 |---|---|---|
@@ -37,7 +37,7 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 ---
 
-### 📝 *Implementation Highlights*
+📝 Implementation Highlights
 ✅ Extracted *real map data* for Seoul using OSMnx  
 ✅ Created a custom RoadGraph class to store nodes (lat, lon) and weighted edges  
 ✅ Implemented BFS, Dijkstra, and A* from scratch  
@@ -45,40 +45,40 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 ---
 
-### 💻 *How to Run*
+💻 How to Run
 
 1. *Clone the repository*
     bash
-    git clone https://github.com/yourusername/real_map_pathfinding
+    git clone https://github.com/Angit1312/real_map_pathfinding
     cd real_map_pathfinding
     
 
-2. *Setup virtual environment*
+2. Setup virtual environment
     bash
     python -m venv venv
     source venv/bin/activate  # Mac/Linux
     venv\Scripts\activate     # Windows
     
 
-3. *Install requirements*
+3. Install requirements
     bash
     pip install -r requirements.txt
     
 
-4. *Run any test script*
+4. Run any test script
     - For A* with visualisation:
         bash
         python day5_visualise.py
         
 
-5. *Open output*
+5. Open output
     - Open pathfinding_result.html in your browser to view the computed path.
 
 ---
 
 ---
 
-### 📈 *Complexities*
+📈 Complexities
 
 | Algorithm | Time Complexity | Space Complexity |
 |---|---|---|
@@ -91,9 +91,10 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 
 
 
-### 🙌 *Credits*
+🙌 Credits
 - [OpenStreetMap](https://www.openstreetmap.org/) for map data  
 - [OSMnx](https://github.com/gboeing/osmnx) for Python map processing tools
 
 ---
+
 
