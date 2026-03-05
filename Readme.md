@@ -66,9 +66,7 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
     
 
 4. Run any test script
-    - For A* with visualisation:
-        bash
-        python day5_visualise.py
+   
         
 
 5. Open output
@@ -96,5 +94,6 @@ It uses *OpenStreetMap data* to create realistic road networks and visualises co
 - [OSMnx](https://github.com/gboeing/osmnx) for Python map processing tools
 
 ---
+
 
 
